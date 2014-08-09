@@ -42,7 +42,7 @@ plot(usage$DateTime,usage$Voltage,type="n",ylab="Voltage",xlab="datetime")
 lines(usage$DateTime,usage$Voltage,col="black")
 
 # Bottom right plot (Time series for Global_reactive_power)
-plot(usage$DateTime,usage$Global_reactive_power,type="n",ylab="Voltage",xlab="Global_reactive_power")
+plot(usage$DateTime,usage$Global_reactive_power,type="n",xlab="datetime",ylab="Global_reactive_power")
 lines(usage$DateTime,usage$Global_reactive_power,col="black")
 
 dev.off()
