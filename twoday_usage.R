@@ -1,3 +1,7 @@
+# This script provides a function for getting and preprocessing the required
+# two-day usage data. If the data file is not found in the current directory,
+# it will be downloaded and unzipped first.
+
 get_twoday_powerusage <- function() {
     if(!  file.exists("household_power_consumption.txt")){
         download.file("https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip",destfile="housepower.zip",method="wget")

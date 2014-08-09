@@ -1,3 +1,5 @@
+# This script will create all of the plots required by this assignment
+
 source("twoday_usage.R")
 
 usage <- get_twoday_powerusage()
