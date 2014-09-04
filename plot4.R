@@ -21,7 +21,6 @@ plot(c(usage$DateTime,usage$DateTime,usage$DateTime),                   # x valu
      c(usage$Sub_metering_1,usage$Sub_metering_2,usage$Sub_metering_3), # y values
      ylab="Energy sub metering",        # y-axis title
      xlab="",                           # No title for x-axis
-     ylim=c(0,30),                      # Make enough room in y to allow for the legend
      type="n"                           # Don't draw it yet
 )
 
